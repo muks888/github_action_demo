@@ -22,13 +22,13 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        C:/''Program Files (x86)''/GnuWin32/bin/make.exe install
+        pwd
     - name: Lint with pylint
       run: |
-        C:/''Program Files (x86)''/GnuWin32/bin/make.exe lint
+        ls
     - name: test with pytest
       run: |
-        C:/''Program Files (x86)''/GnuWin32/bin/make.exe test
+        date
     - name: Format code with Black
       run: |
-        C:/''Program Files (x86)''/GnuWin32/bin/make.exe format
+        uname -a
