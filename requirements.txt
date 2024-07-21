@@ -1,0 +1,5 @@
+# req
+
+pylint==2.9.6
+pytest==5.2.2
+black==18.3a0
